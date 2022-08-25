@@ -10,6 +10,7 @@ spec:
       labels:
         app.kubernetes.io/name: {{ $.Chart.Name | quote }}
         app.kubernetes.io/instance: {{ $.Release.Name | quote }}
+    spec:
       containers:
         - name: "java"
           image: {{ printf "%s:%s" $.Values.image.repository $.Values.image.tag | quote }}
