@@ -1,7 +1,7 @@
 ---
 image:
-  repository: "nginx"
-  tag: "1.17"
-  pullPolicy: "IfNotPresent"
+  repository: "quay.io/bwelch/alpine"
+  tag: "latest"
+  pullPolicy: "Always"
 
 replicaCount: 1
