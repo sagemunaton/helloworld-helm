@@ -1,6 +1,6 @@
 ---
 image:
-  repository: "quay.io/bwelch/alpine"
+  repository: "quay.io/bwelch/helloworld"
   tag: "latest"
   pullPolicy: "Always"
 
